@@ -11,7 +11,5 @@ import { Book } from '../../models/book.model';
 export class BrowseComponent {
   library: Book[] = [];
 
-  onAddBook(book: Book) {
-    this.library.push(book);
-  }
+  constructor() {}
 }
