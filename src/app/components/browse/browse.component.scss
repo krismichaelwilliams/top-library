@@ -1,9 +1,21 @@
+.container {
+  display: grid;
+  grid-template: repeat(2, auto) / repeat(4, minmax(100px, 1fr));
+  gap: 2em 1em;
+}
+
 button {
-  font-size: 1.75em;
   color: white;
   background-color: #697565;
-  height: 50px;
-  width: 50px;
-  border: 2px solid white;
-  border-radius: 50%;
+  border: 1px solid white;
+  border-radius: 0.5em;
+  padding: 1em 3em;
+  font-size: large;
+  margin-bottom: 2em;
+  cursor: pointer;
+}
+
+button:hover {
+  color: black;
+  background-color: #ecdfcc;
 }
